@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="420dp"
+    android:background="@drawable/gradient"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/tv_close_popup"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:background="@color/dark_grey"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_popup_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/backgroundColor"
+            android:textStyle="bold"
+            android:text="Product"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_popup_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp"
+            android:text="Product"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_popup_unit_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/backgroundColor"
+            android:textStyle="bold"
+            android:text="Unit"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_popup_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp"
+            android:text="Unit"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/price_logo"/>
+
+        <TextView
+            android:id="@+id/tv_popup_price_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/backgroundColor"
+            android:textStyle="bold"
+            android:text="Price"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_popup_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="120dp"
+            android:text="Price"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_popup_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/backgroundColor"
+            android:textStyle="bold"
+            android:text="Info:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_popup_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/grey_transparent"
+            android:text="Info"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</LinearLayout>
